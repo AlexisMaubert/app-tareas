@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: white;
+  background-color: darkcyan;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 40px;
+}
+h2 {
+  color: #1b1b32;
+  font-size: 30px;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
+.app-tareas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor-titulo {
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.titulo {
+  font-size: 8em;
+  color: #d0d0d5;
+}
+
+/* LISTAS DE TAREAS */
+.tareas-lista {
+  width: 800px;
+  min-height: 600px;
+  background-color: #d0d0d5;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 26px;
+}
